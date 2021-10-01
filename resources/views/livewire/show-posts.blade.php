@@ -44,7 +44,7 @@
 
                                         <div class="">
                                             <div class="form-group">
-                                                <label for="subject">object</label>
+                                                <label for="subject">Object</label>
                                                 <input type="text" class="form-control" id="subject" placeholder="Object" wire:model="subject" />
                                                 @error('subject') <span class="text-danger">{{ $message }}</span> @enderror
                                             </div>
@@ -52,7 +52,7 @@
                                     
                                         <div class="">
                                             <div class="form-group">
-                                                <label for="message">Body</label>
+                                                <label for="message">Message</label>
                                                 <textarea class="form-control" id="message" placeholder="votre préoccupation" wire:model="message"></textarea>
                                                 @error('message') <span class="text-danger">{{ $message }}</span> @enderror
                                             </div>

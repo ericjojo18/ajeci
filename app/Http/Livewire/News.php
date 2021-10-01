@@ -18,4 +18,5 @@ class News extends Component
         
         return view('livewire.news')->layout('layouts.base');
     }
+    
 }

@@ -13,13 +13,13 @@
                               <h1 class="fs-4 fs-md-5 zopacity" data-zanim='{"delay":0}'>Signatures de partenariats</h1>
                               </div>
                              <div class="overflow-hidden">
-                               <p class="color-warning mt-4 mb-5 lh-2 fs-1 fs-md-2 zopacity" data-zanim='{"delay":0.1}'>En vue d’étendre son réseau, l’AJECI entend signer des partenariats avec l'université virtuelle de la Côte d’Ivoire (UVCI).</p>
+                               <p class="color-warning mt-4 mb-5 lh-2 fs-1 fs-md-2 zopacity" data-zanim='{"delay":0.1}'>En vue d’étendre son réseau, l'université virtuelle de la Côte d’Ivoire (UVCI) est le partenaire institutionel de l’Association des Jeunes Entrepreneurs de Côte d’Ivoire (AJECI).</p>
                               </div>
                                  <div class="overflow-hidden">
                                    <div class="zopacity" data-zanim='{"delay":0.2}'>
                                      <a class="btn btn-primary mr-3 mt-3" href="/Incub">Incubateur<span class="fa fa-chevron-right ml-2">
                                      </span></a>
-                                     <a class="btn btn-warning mt-3" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit ">Devenir Membre<span class="fa fa-chevron-right ml-2"></span></a> 
+                                     <a class="btn btn-warning mt-3" href="/adhesion">Devenir Membre<span class="fa fa-chevron-right ml-2"></span></a> 
                                    </div>
                                  </div>
                              </div>
@@ -37,15 +37,15 @@
                            <div class="row h-full py-8 align-items-center" data-inertia='{"weight":1.5}'>
                               <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
                                  <div class="overflow-hidden">
-                                   <h1 class="fs-4 fs-md-5 zopacity"data-zanim='{"delay":0}'></h1>
+                                   <h1 class=" fs-4 fs-md-5 zopacity"data-zanim='{"delay":0}'>Faire la promotion de entrepreneurial</h1>
                                  </div>
                                    <div class="overflow-hidden">
-                                     <p class="color-warning mt-4 mb-5 lh-2 fs-1 fs-md-2 zopacity" data-zanim='{"delay":0.1}'>Over 10 years of experience in helping clients finding comprehensive solutions.</p>
+                                     <p class="color-warning mt-4 mb-5 lh-2 fs-1 fs-md-2 zopacity" data-zanim='{"delay":0.1}'>Nous aidons les jeunes entrepreneurs dans l'elaboration dans leur projet entreprenariat afin d'être des leaders sur le marché.</p>
                                    </div>
                                       <div class="overflow-hidden">
                                         <div class="zopacity" data-zanim='{"delay":0.2}'>
                                          <a class="btn btn-primary mr-3 mt-3" href="/mediathèque">Médiatheque<span class="fa fa-chevron-right ml-2"></span></a>
-                                         <a class="btn btn-warning mt-3" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit ">Devenir Membre<span class="fa fa-chevron-right ml-2"></span></a>
+                                         <a class="btn btn-warning mt-3" href="/adhesion ">Devenir Membre<span class="fa fa-chevron-right ml-2"></span></a>
                                         </div>
                                       </div>
                               </div>
@@ -57,20 +57,20 @@
                    <li data-zanim-timeline="{}">
                      <section class="py-0">
                        <div>
-                         <div class="background-holder elixir-zanimm-scale" style="background-image:url(assets/images/image.jpeg);" data-zanimm='{"from":{"opacity":0.1,"filter":"blur(10px)","scale":1.05},"to":{"opacity":1,"filter":"blur(0px)","scale":1}}'></div>
+                         <div class="background-holder elixir-zanimm-scale" style="background-image:url(assets/images/What.jpeg);" data-zanimm='{"from":{"opacity":0.1,"filter":"blur(10px)","scale":1.05},"to":{"opacity":1,"filter":"blur(0px)","scale":1}}'></div>
                            <div class="container">
                              <div class="row h-full py-8 align-items-center" data-inertia='{"weight":1.5}'>
                                <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
                                 <div class="overflow-hidden">
-                                  <h1 class="fs-4 fs-md-5 zopacity" data-zanim='{"delay":0}'>Growth Partners</h1>
+                                  <h1 class="fs-4 fs-md-5 zopacity" data-zanim='{"delay":0}'>Engager dans le leadership </h1>
                                  </div>
                                   <div class="overflow-hidden">
-                                    <p class="color-warning mt-4 mb-5 lh-2 fs-1 fs-md-2 zopacity" data-zanim='{"delay":0.1}'>Connect with top consultants hand-picked by Elixir consulting and finance.</p>
+                                    <p class="color-warning mt-4 mb-5 lh-2 fs-1 fs-md-2 zopacity" data-zanim='{"delay":0.1}'>Nous formons les futurs entrepreneurs et cadres de société.</p>
                                   </div> 
                                     <div class="overflow-hidden">
                                       <div class="zopacity" data-zanim='{"delay":0.2}'>
                                         <a class="btn btn-primary mr-3 mt-3" href="/Actualite-ajeci">Nos actualités<span class="fa fa-chevron-right ml-2"></span></a>
-                                         <a class="btn btn-warning mt-3" href="/contac">Contactez-nous<span class="fa fa-chevron-right ml-2"></span></a>
+                                         <a class="btn btn-warning mt-3" href="/contact">Contactez-nous<span class="fa fa-chevron-right ml-2"></span></a>
                                       </div>
                                     </div>
                                </div>
@@ -128,11 +128,11 @@
             <div class="row align-items-center justify-content-center text-center">
               <div class="col-11 col-md-12">
                   <div class="pos-relative mt-4 py-5 py-md-11">
-                    <div class="background-holder radius-secondary" style="background-image:url(assets/images/ajeci.jpg);">
+                    <div class="background-holder radius-secondary" style="background-image:url(assets/images/ajeci.jpg);" ><i class=""></i>
                  </div>
                   <a class="video-modal" href="https://www.youtube.com/watch?v=glCyo2yttI4" data-start="6" data-end="168">
                     <div class="btn-elixir-play" style="transform: scale(0.8)" data-zanim-trigger="scroll" data-zanim='{"from":{"opacity":0,"scale":0.8},"to":{"opacity":1,"scale":1},"duration":1}'>
-                      <span class="ion-play fs-2"></span>
+                      <span class="fa fa-play fs-2"></span>
                     </div>
                   </a>
                 </div>
@@ -164,13 +164,13 @@
   <div class="container">
     <div class="row mb-6" id="service" role="tabpanel" aria-labelledby="service-tab">
         <div class="col">
-        <h3 class="text-center fs-2 fs-lg-3">Pourquoi Adhérer à l'AJECI</h3>
+        <h3 class="text-center fs-2 fs-lg-3">Pourquoi Adhérer à l'AJECI ?</h3>
         <hr class="short" data-zanim='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll">
         </div>
     </div>
         <div class="row">
           <div class="col-lg-6 pr-0 pr-lg-3">
-            <img class="radius-secondary" src="assets/images/images.jpeg" alt=""/>
+            <img class="radius-secondary" src="assets/images/what.jpeg" alt=""/>
           </div>
           <div class="col-lg-6 px-lg-5 mt-6 mt-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="overflow-hidden">

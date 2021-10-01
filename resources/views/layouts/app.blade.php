@@ -19,6 +19,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         
+        
 
         @livewireStyles
 
@@ -46,8 +47,16 @@
             </main>
         </div>
         @stack('modals')
-        <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/inline/ckeditor.js"></script>
+        
         @livewireScripts
-        @yield('scripts')
+        <!-- <script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js"></script>
+        <script src="ckeditor/ckeditor.js"></script>
+        <script>
+            ClassicEditor
+            .create(document.querySelector('#contenue'))
+            .catch(error => {
+                console.error(error)
+            });
+        </script> -->
     </body>
 </html>

@@ -36,7 +36,7 @@
               <img class="w-8 h-8 rounded-full" src="{{ asset('storage/photos/'.$post->image)}}" />
             </td>
             <td class="px-6 py-4 text-right text-sm">
-                <x-jet-button wire:click="showEditPostModal({{ $post->id }})" class="bg-green-500">Voir </x-jet-button>
+                <x-jet-button wire:click="showEditPostModal({{ $post->id }})" class="bg-green-500" >Voir </x-jet-button>
                 <x-jet-button wire:click="deletePost({{ $post->id }})" class="bg-red-700">Supprimer</x-jet-button>
             </td>
           </tr>
@@ -86,8 +86,8 @@
     </div>
     <div class="sm:col-span-6 pt-5">
       <label for="body" class="block text-sm font-medium text-gray-700">Contenue de l'article</label>
-      <div class="mt-1">
-        <textarea id="editor" rows="3" wire:model.lazy="contenue" class="shadow-sm focus:ring-indigo-500 appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 text-base leading-normal transition duration-150 ease-in-out focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"></textarea>
+      <div class="mt-3">
+        <textarea id="contenue" row="5" wire:model.lazy="contenue" class="shadow-sm focus:ring-indigo-500 appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 text-base leading-normal transition duration-150 ease-in-out focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"></textarea>
       </div>
       @error('contenue') <span class="error">{{ $message }}</span> @enderror
     </div>
@@ -104,14 +104,18 @@
     </x-slot>
 </x-jet-dialog-modal>
 
+
 </div>
-@section('scripts')
 <script>
-    InlineEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+            ClassicEditor
+            .create(document.querySelector('#contenue'))
+            .catch(error => {
+                console.error(error)
+            });
 </script>
-@endsection
+
+
+
+    
+
 

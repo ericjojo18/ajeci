@@ -84,8 +84,8 @@
                  <li>
                      <a href="JavaScript:void(0)">A propos</a>
                           <ul class="dropdown fs--1">
-                           <li><a href="/qui-sommes-nous">Qui sommes-nous</a></li>
-                            <li><a href="/Mot-du-president">Mot du president</a></li>
+                           <li><a href="/qui-sommes-nous">Qui sommes-nous?</a></li>
+                            <li><a href="/Mot-du-president">Mot du président</a></li>
                             <li><a href="/Membre-du-bureau">Membre du bureau</a></li>
                          </ul>
                   </li>
@@ -93,16 +93,17 @@
                            
                            <li><a  href="/mediathèque">Médiathèque </a></li>
                           
-                           <li><a href="JavaScript:void(0)">Actualité</a>
+                           <li><a href="JavaScript:void(0)">Actualités</a>
                            <ul class="dropdown fs--1"><li><a href="/Actualite-ajeci">actualités AJECI</a></li>
-                           <li><a href="news.html">news Entreprenariat</a></li></ul>
+                           <!-- <li><a href="news.html">news Entreprenariat</a></li> -->
+                          </ul>
                            </li>
                           
                              <li><a class="d-block mr-md-9"href="/contact">Contact </a> </li>
                              
                  </ul>
                  <ul class="navbar-nav ml-lg-auto"> 
-                 <li><a class="btn btn-outline-primary btn-capsule btn-sm border-2x fw-700" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit" target="_blank">Devenir Membre</a>
+                 <li><a class="btn btn-outline-primary btn-capsule btn-sm border-2x fw-700" href="/adhesion" >Devenir Membre</a>
                  </li>
                  </ul>
 
@@ -121,7 +122,7 @@
           <div class="background-primary color-white p-5 p-lg-3 radius-secondary">
           <img src="assets/images/logo.png" alt=""/>
             <h4 class="color-white fs-1 fs-lg-2 mb-1">L’Association des Jeunes Entrepreneurs de Côte d’Ivoire (AJECI) </h4>
-             <p class="color-white">la fertier des jeunes entrepreneurs  </p>
+             <p class="color-white">la faîtière des jeunes entrepreneurs  </p>
               
           </div>
         </div>
@@ -129,14 +130,14 @@
              <div class="row">
                 <div class="col-6 col-lg-4 color-white ml-lg-auto">
                   <ul class="list-unstyled">
-                   <li class="mb-3"><a class="color-white" href="/qui-sommes-nous">Qui sommes-nous</a></li>
-                   <li class="mb-3"><a class="color-white" href="/Mot-du-president">Mot du president</a></li>
-                   <li class="mb-3"><a class="color-white" href="/Membre-du-bureau">membre du bureau</a></li>
+                   <li class="mb-3"><a class="color-white" href="/qui-sommes-nous">Qui sommes-nous?</a></li>
+                   <li class="mb-3"><a class="color-white" href="/Mot-du-president">Mot du président</a></li>
+                   <li class="mb-3"><a class="color-white" href="/Membre-du-bureau">Membre du bureau</a></li>
                    <li class="mb-3"><a class="color-white" href="/Incub">Incub</a></li>
                    <li class="mb-3"><a class="color-white" href="/mediathèque">Médiatheque</a></li>
-                   <li class="mb-3"><a class="color-white" href="/Actualite-ajeci">Actualité</a></li>
+                   <li class="mb-3"><a class="color-white" href="/Actualite-ajeci">Actualités</a></li>
                    <li class="mb-3"><a class="color-white" href="/contact">Contactez-Nous</a></li>
-                   <li class="mb-3"><a class="color-white" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit">Devenir Membre</a></li>
+                   <li class="mb-3"><a class="color-white" href="/adhesion">Devenir Membre</a></li>
                   </ul>
                 </div>
                     <div class="col-6 col-sm-5 ml-sm-auto">

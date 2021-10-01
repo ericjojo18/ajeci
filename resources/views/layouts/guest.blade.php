@@ -4,9 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicons/logo.png">
+  <link rel="mask-icon" href="../assets/images/favicons/logo.png" color="#5bbad5">
+  <meta name="msapplication-TileImage" content="../assets/images/favicons/logo.png">
 
         <title>{{ config('app.name', 'AJECI') }}</title>
-        <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/inline/ckeditor.js"></script>
+        
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
@@ -21,4 +27,6 @@
             {{ $slot }}
         </div>
     </body>
+    <script src="ckeditor/ckeditor.js"></script>
+        
 </html>

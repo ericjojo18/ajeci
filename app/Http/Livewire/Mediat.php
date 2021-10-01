@@ -12,7 +12,9 @@ class Mediat extends Component
     public $media;
     public function render()
     {
+       
         $medias = Media::paginate(6);
         return view('livewire.media', compact('medias'))->layout('layouts.base');
     }
+    protected $paginationTheme = 'bootstrap';
 }

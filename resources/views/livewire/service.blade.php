@@ -74,11 +74,13 @@
                                             <h5 data-zanim='{"delay":0}'>	Concours</h5>
                                         </div>
                                         <div class="overflow-hidden">
-                                            <p class="mt-3" data-zanim='{"delay":0.1}'>Pour participer au concours, les membres devront déposer leur candidature à une date prédéfinie, à la suite de quoi, une commission d’évaluation sélectionnera les porteurs de projets appeler à compétir.<br> Des étapes d’élimination seront définies jusqu’à ce que le projet retenu soit incubé.Pour participer au concours, les membres devront déposer leur candidature à une date prédéfinie, à la suite de quoi, une commission d’évaluation sélectionnera les porteurs de projets appeler à compétir. <br> Des étapes d’élimination seront définies jusqu’à ce que le projet retenu soit incubé.</p>
+                                            <p class="mt-3" data-zanim='{"delay":0.1}'>Pour participer au concours, les membres devront déposer leur candidature à une date prédéfinie, à la suite de quoi, une commission d’évaluation sélectionnera les porteurs de projets appeler à compétir.
+                                                <br> Des étapes de présélections seront définies jusqu’à ce que le projet retenu soit incubé.Pour participer au concours, les membres devront déposer leur candidature à une date prédéfinie, à la suite de quoi, une commission d’évaluation sélectionnera les porteurs de projets appeler à compétir. 
+                                                </p>
                                         </div>
                                         <div class="overflow-hidden">
                                             <div data-zanim='{"delay":0.2}'>
-                                                <a class="d-flex align-items-center" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit">En savoir plus
+                                                <a class="d-flex align-items-center" href="/adhesion">En savoir plus
                                                     <div class="overflow-hidden ml-2">
                                                         <span class="d-inline-block" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span>
                                                     </div>
@@ -103,7 +105,7 @@
                                             </div>
                                             <div class="overflow-hidden">
                                                 <p class="mt-3" data-zanim='{"delay":0.1}'>A la clôture de la période de dépôt des dossiers, la commission d’évaluation se réunira pour étudier les dossiers et choisir le meilleur parmi eux. En cas d’égalité entre 2 ou 3 projets, un commissaire général, désigné au préalable, tranchera.</p></div><div class="overflow-hidden"><div data-zanim='{"delay":0.2}'>
-                                                    <a class="d-flex align-items-center" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit">en savoir plus
+                                                    <a class="d-flex align-items-center" href="/adhesion">en savoir plus
                                                         <div class="overflow-hidden ml-2">
                                                             <span class="d-inline-block" data-zanim='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span>
                                                         </div>

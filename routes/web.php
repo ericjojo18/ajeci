@@ -9,6 +9,7 @@ use App\Http\Livewire\Mediat;
 use App\Http\Livewire\Posts; 
 use App\Http\Livewire\Alumni; 
 use App\Http\Livewire\Service;
+use App\Http\Livewire\Adhesion;
 use App\Http\Livewire\Contacts;
 use App\Http\Livewire\Newsroom;
 use App\Http\Livewire\ShowPosts;
@@ -38,8 +39,10 @@ Route::get('/Incub', Service::class)->name('service');
 Route::get('/Actualite-ajeci', Newsroom::class)->name('newsroom');
 Route::get('/Actualite-ajeci/{slug}', News::class)->name('news');
 Route::get('/mediathèque', Mediat::class)->name('about');
+Route::get('/adhesion',Adhesion::class)->name('adhesion');
 //Route::get('/contact', ContactForm::class, 'SendContact')->name('contact');
 Route::get('/contact', ContactForms::class)->name('showposts');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

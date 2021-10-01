@@ -16,5 +16,6 @@ class Newsroom extends Component
         $posts =  Post::paginate("3");
         return view('livewire.newsroom', compact('posts'))->layout('layouts.base');
     }
+    protected $paginationTheme = 'bootstrap';
    
 }

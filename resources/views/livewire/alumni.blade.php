@@ -6,13 +6,13 @@
           <div class="row pt-6" data-inertia='{"weight":1.5}'>
            <div class="col-md-8 px-md-0 color-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="overflow-hidden">
-              <h1 class="color-white fs-4 fs-md-5 mb-0 zopacity" data-zanim='{"delay":0}'>MEMBRE DU BUREAU </h1>
+              <h1 class="color-white fs-4 fs-md-5 mb-0 zopacity" data-zanim='{"delay":0}'>MEMBRES DU BUREAU </h1>
                 <div class="nav zopacity" aria-label="breadcrumb" role="navigation" data-zanim='{"delay":0.1}'>
                  <ol class="breadcrumb fs-1 pl-0 fw-700">
                   <li class="breadcrumb-item">
                    <a class="color-white" href="/">Accueil</a>
                   </li>
-                    <li class="breadcrumb-item active" aria-current="page">Membre du bureau </li>
+                    <li class="breadcrumb-item active" aria-current="page">Membres du bureau </li>
                     </ol>
                     </div>
                  </div>
@@ -31,7 +31,7 @@
             </div>
            <div class="col-sm-6 col-lg-4">            
              <div class="background-white pb-4 h-100 radius-secondary">
-              <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
+              <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/pr.jpg" alt="Profile Picture"/>
                 <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                  <div class="overflow-hidden">
                   <h5 data-zanim='{"delay":0}'>ADOU KOUAME DESIRE</h5>
@@ -47,7 +47,7 @@
           </div>
                   <div class="col-sm-6 col-lg-4 mt-4 mt-sm-0">
                     <div class="background-white pb-4 h-100 radius-secondary">
-                      <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
+                      <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/mages.jpeg" alt="Profile Picture"/>
                       <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="overflow-hidden">
                         <h5 data-zanim='{"delay":0}'>AGOH DANY JUSTINE EFELY</h5>
@@ -95,7 +95,7 @@
                             </div>
                               <div class="col-sm-6 col-lg-4 mt-4">
                                <div class="background-white pb-4 h-100 radius-secondary">
-                                <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
+                                <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/ajeci.jpg" alt="Profile Picture"/>
                                  <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                   <div class="overflow-hidden">
                                    <h5 data-zanim='{"delay":0}'>ADEBAYO MUHAMAD</h5>
@@ -111,10 +111,10 @@
                               </div>
                                 <div class="col-sm-6 col-lg-4 mt-4">
                                  <div class="background-white pb-4 h-100 radius-secondary">
-                                  <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
+                                  <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/ds.jpeg" alt="Profile Picture"/>
                                    <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                     <div class="overflow-hidden">
-                                     <h5 data-zanim='{"delay":0}'>DATE PATRICE</h5>
+                                     <h5 data-zanim='{"delay":0}'>SAHOUA DESIREE</h5>
                                     </div>
                                      <div class="overflow-hidden">
                                       <h6 class="fw-400 color-7" data-zanim='{"delay":0.1}'>SECRETAIRE GENERAL ADJOINT</h6>
@@ -127,7 +127,7 @@
                                 </div>
                                 <div class="col-sm-6 col-lg-4 mt-4">
                               <div class="background-white pb-4 h-100 radius-secondary">
-                               <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
+                               <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/imag.jpeg" alt="Profile Picture"/>
                                 <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                  <div class="overflow-hidden">
                                   <h5 data-zanim='{"delay":0}'>BAKOUAN MAMADOU</h5>
@@ -141,12 +141,12 @@
                                 </div>
                               </div>
                             </div>
-                              <div class="col-sm-6 col-lg-4 mt-4">
+                              <!-- <div class="col-sm-6 col-lg-4 mt-4">
                                <div class="background-white pb-4 h-100 radius-secondary">
                                 <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
                                  <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                   <div class="overflow-hidden">
-                                   <h5 data-zanim='{"delay":0}'>SAHOUA DESIREE</h5>
+                                   <h5 data-zanim='{"delay":0}'></h5>
                                   </div>
                                     <div class="overflow-hidden">
                                       <h6 class="fw-400 color-7" data-zanim='{"delay":0.1}'>TRESORIERE ADJOINTE</h6>
@@ -156,7 +156,7 @@
                                       </div>
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                                 <div class="col-sm-6 col-lg-4 mt-4">
                                  <div class="background-white pb-4 h-100 radius-secondary">
                                   <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/392.jpg" alt="Profile Picture"/>
@@ -210,7 +210,7 @@
                                   <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
                                    <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                     <div class="overflow-hidden">
-                                     <h5 data-zanim='{"delay":0}'>DAYIRI ESDRAS</h5>
+                                     <h5 data-zanim='{"delay":0}'>DATE PATRICE</h5>
                                     </div>
                                      <div class="overflow-hidden">
                                       <h6 class="fw-400 color-7" data-zanim='{"delay":0.1}'>SECRETARIAT A L’ORGANISATION</h6>
@@ -223,7 +223,7 @@
                                 </div>
                                 <div class="col-sm-6 col-lg-4 mt-4">
                               <div class="background-white pb-4 h-100 radius-secondary">
-                               <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/test1.jpg" alt="Profile Picture"/>
+                               <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/app.jpeg" alt="Profile Picture"/>
                                 <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                  <div class="overflow-hidden">
                                   <h5 data-zanim='{"delay":0}'>ESSE EVRA</h5>
@@ -356,7 +356,7 @@
                                 </div>
                                 <div class="col-sm-6 col-lg-4 mt-4">
                               <div class="background-white pb-4 h-100 radius-secondary">
-                               <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/WA.jpg" alt="Profile Picture"/>
+                               <img class="mb-4 radius-tr-secondary radius-tl-secondary" src="assets/images/sf.jpeg" alt="Profile Picture"/>
                                 <div class="px-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                  <div class="overflow-hidden">
                                   <h5 data-zanim='{"delay":0}'>SILUE DOMELELI</h5>
@@ -398,7 +398,7 @@
                           <h4 class="color-white mb-0">Si vous avez des questions liées à l'entreprenariat...  <br class="d-md-none"/>nous sommes disponibles 24/7</h4>
                        </div>
                       <div class="col-md-auto mt-md-0 mt-4">
-                             <a class="btn btn-white btn-capsule" href="https://docs.google.com/forms/d/15fRkMpnHUKs8_N13l2mLvqsWjGB4d-gljEomwAqbP-w/edit ">Contactez-Nous</a>
+                             <a class="btn btn-white btn-capsule" href="/contact ">Contactez-Nous</a>
                        </div>
                     </div>
                 </div>

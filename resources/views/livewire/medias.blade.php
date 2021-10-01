@@ -56,7 +56,7 @@
       <div class="mt-1">
         <input type="text" id="titre" wire:model.lazy="titre" name="titre" class="block w-full transition duration-150 ease-in-out appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 text-base leading-normal transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
       </div>
-      @error('titre ') <span class="error">{{ $message }}</span> @enderror
+      @error('titre') <span class="error">{{ $message }}</span> @enderror
     </div>
     <div class="sm:col-span-6">
         <div class="w-full m-2 p-2">
@@ -89,4 +89,10 @@
 </x-jet-dialog-modal>
 </div>
 
-
+<script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>

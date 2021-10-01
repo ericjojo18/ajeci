@@ -56,7 +56,7 @@ class Medias extends Component
     public function loadEditForm()
     {
         $media = Media::findOrFail($this->mediaId);
-        $this->titre = $media->title;
+        $this->titre = $media->titre;
         $this->newImage = $media->image;
     }
     public function updatePost()
@@ -66,7 +66,7 @@ class Medias extends Component
             'image' =>'image|max:1024|nullable',
         ]);
         if($this->image){
-            Storage::delete('public/photos/', $this->newImage );
+            Storage::delete('public/photo/', $this->newImage );
             $this->newImage = $this->image->getClientOriginalName();
             $this->image->storeAs('public/photo/', $this->newImage);
         }
@@ -81,7 +81,7 @@ class Medias extends Component
     }
     public function deletePost($id)
     {
-      $media = Post::find($id);
+      $media = Media::find($id);
       Storage::delete('public/photo/', $media->image);
       session()->flash('flash.banner', 'Mediatheque Supprime Avec Succes');
       session()->flash('flash.bannerStyle', 'success');

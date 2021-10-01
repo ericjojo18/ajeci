@@ -2,8 +2,10 @@
 
 namespace App\Http\Livewire;
 
+use App\Mail\Email;
 use Livewire\Component;
 use App\Models\ContactForm;
+use Illuminate\Support\Facades\Mail;
 
 class ContactForms extends Component
 {
@@ -27,7 +29,13 @@ class ContactForms extends Component
 
         ]);
     }
-
+    protected $rules = [
+        'name' => 'required',
+        'email' => 'required|email',
+        'phone' => 'required|digits:10',
+        'subject' => 'required|min:10',
+        'message' => 'required'
+    ];
 
     public function submit()
     {
@@ -39,7 +47,7 @@ class ContactForms extends Component
            'message' => 'required' 
        ]);
         
-       Contactform::create([
+        Contactform::create([
         'name' => $this->name,
         'email' => $this->email,
         'phone' => $this->phone,
@@ -47,13 +55,18 @@ class ContactForms extends Component
         'message' => $this->message,
        
         ]);
+        Mail::to('info@ajeci-ci.org')->send(new Email($this->name,$this->email,$this->phone ,$this->subject,$this->message));
        
-       session()->flash('success', 'Nous avons bien reçu votre message et vous remercions de nous avoir écrit.');
+       session()->flash('success', 'Nous avons bien reçu votre message, nous vous ferons un retour très bientôt. Merci de nous avoir contacté ! ');
        return redirect()->to('/contact');
        
     }
+   
+        
+   
     public function render()
     {
+        
         
         return view('livewire.show-posts')->layout('layouts.base');
     }

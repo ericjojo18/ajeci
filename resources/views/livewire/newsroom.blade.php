@@ -8,7 +8,7 @@
                                <img class="w-100 radius-tr-secondary radius-tl-secondary" src="{{ asset('storage/photos/'.$post->image) }}" alt="Featured Image"/>
                                  <div class="px-4 pt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                      <div class="overflow-hidden">
-                                         <a href="news.html">
+                                         <a href="{{ route ('news',$post->slug)}}">
                                              <h5 data-zanim='{"delay":0}'>{{$post->titre}}</h5>
                                         </a>
                                      </div>

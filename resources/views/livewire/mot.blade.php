@@ -26,7 +26,7 @@
                  <div class="container">
                    <div class="row no-gutters">
                      <div class="col-lg-4 py-3 py-lg-0" style="min-height:400px; background-position: top">
-                       <div class="background-holder radius-tl-secondary radius-bl-lg-secondary radius-tr-secondary radius-tr-lg-0" style="background-image:url(assets/images/test1.jpg);">
+                       <div class="background-holder radius-tl-secondary radius-bl-lg-secondary radius-tr-secondary radius-tr-lg-0" style="background-image:url(assets/images/pr.jpg);">
                          </div>
                      </div>
                       <div class="col-lg-8 px-5 py-6 my-lg-0 background-white radius-tr-lg-secondary radius-br-secondary radius-bl-secondary radius-bl-lg-0">
